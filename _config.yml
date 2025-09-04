@@ -1,0 +1,19 @@
+# GitHub Pages configuration
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - package.json
+  - package-lock.json
+  - tsconfig.json
+  - backend/
+  - frontend/
+  - src/
+  - public/
+  - .github/
+  - .gitignore
